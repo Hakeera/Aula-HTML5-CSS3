@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Cornmanthe3rd-Plex-Other-html-5.ico" type="image/x-icon">
+    <title>Midia</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Imagens que devem se adptar a diferentes tamanhos de tela</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
+        <img src="imagens/img_g.png" alt="Imagem flexível">
+    </picture>    
+
+    <h1>Audios</h1>
+    <audio src="midia/Rei Patchuko edit1.wav" type="audio/wav" controls> </audio>
+
+    <h1>Vídeos</h1>
+    <p>Videos hospedados localmente</p>
+    <video src="midia/pexels-kammeran-gonzalezkeola-17823784 (240p).mp4" poster="midia/img_p.png" width="250" type="video/mp4" controls loop></video>
+    <!--
+    <video controls>
+        <source src="" type="">
+        <source src="" type="">
+        <source src="" type="">
+        <source src="" type="">
+        <p> Seu navegador não suporta o formato do vídeo </p>
+    </video>    
+    -->
+    <p>Videos hospedados externamente (YouTube)</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=DoSnnQqZGUFdy5-F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

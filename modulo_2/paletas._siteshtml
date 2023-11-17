@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites de Paletas</title>
+</head>
+<body>       
+    <h2>
+        <a href="https://color.adobe.com/pt/create/color-wheel">Adobe Color</a>
+    </h2>
+    <h2>
+        <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">Paletton</a>
+    </h2>
+    <h2>
+        <a href="https://coolors.co">Coolors</a>
+    </h2>
+</body>
+</html>
